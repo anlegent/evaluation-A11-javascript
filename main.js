@@ -27,9 +27,7 @@ console.log(areaCalculator(1, 0)); // Résultat attendu: 0
 
 // ex03.js
 
-function areaHardcoreCalculator(x1, y1, x2, y2) {
-  return;
-}
+function areaHardcoreCalculator(x1, y1, x2, y2) {}
 
 console.log(areaHardcoreCalculator(0, 1, 3, 2)); // Résultat attendu: 3
 console.log(areaHardcoreCalculator(1, 68, 2, 87)); // Résultat attendu: 19
@@ -92,9 +90,13 @@ console.log(isNationalIDValid("John", 18, 69100, "amerty")); // Résultat attend
 
 function calculate(n1, n2, operation) {}
 
-function addition(n1, n2) {}
+function addition(n1, n2) {
+  return n1 + n2;
+}
 
-function subtraction(n1, n2) {}
+function subtraction(n1, n2) {
+  return n1 - n2;
+}
 
 console.log(calculate(0, 1, addition)); // Résultat attendu: 1
 console.log(calculate(0, 10, subtraction)); // Résultat attendu: -10

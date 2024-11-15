@@ -42,3 +42,12 @@ function isSumEven(a, b) {
 
 console.log(isSumEven(1, 3)); // Résultat attendu: true
 console.log(isSumEven(1, 0)); // Résultat attendu: false
+
+// ex05.js
+
+function isEnoughMoney(price, wallet) {
+  return price <= wallet;
+}
+
+console.log(isEnoughMoney(10, 0)); // Résultat attendu: false
+console.log(isEnoughMoney(5, 25)); // Résultat attendu: true

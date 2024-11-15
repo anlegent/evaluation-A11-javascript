@@ -68,3 +68,10 @@ function getReduction(price, age) {
 
 console.log(getReduction(10, 5)); // Résultat attendu: 0
 console.log(getReduction(150, 25)); // Résultat attendu: 45
+
+// ex07.js
+
+function isNationalIDValid(name, age, zip, password) {}
+
+console.log(isNationalIDValid("", 18, 69100, "hello")); // Résultat attendu: false
+console.log(isNationalIDValid("John", 18, 69100, "amerty")); // Résultat attendu: true

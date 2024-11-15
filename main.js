@@ -75,3 +75,14 @@ function isNationalIDValid(name, age, zip, password) {}
 
 console.log(isNationalIDValid("", 18, 69100, "hello")); // Résultat attendu: false
 console.log(isNationalIDValid("John", 18, 69100, "amerty")); // Résultat attendu: true
+
+// ex08.js
+
+function calculate(n1, n2, operation) {}
+
+function addition(n1, n2) {}
+
+function subtraction(n1, n2) {}
+
+console.log(calculate(0, 1, addition)); // Résultat attendu: 1
+console.log(calculate(0, 10, subtraction)); // Résultat attendu: -10
